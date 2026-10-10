@@ -1,0 +1,13 @@
+name: ArenaReset
+version: 1.0
+main: com.example.arenareset.ArenaResetPlugin
+api-version: '1.21'
+depend: [WorldEdit]
+commands:
+  arena:
+    description: Manage WorldEdit arena resets
+    usage: /arena <create|reset|delete|list>
+permissions:
+  arenareset.admin:
+    description: Manage arenas
+    default: op
