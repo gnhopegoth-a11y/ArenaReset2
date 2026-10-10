@@ -1,0 +1,3 @@
+# Max milliseconds per tick spent restoring blocks.
+# Lower = less lag, slower reset. Higher = faster reset, more lag.
+tick-budget-ms: 2.0
